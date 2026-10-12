@@ -1,0 +1,36 @@
+{
+  "format": 2,
+  "id": "71f147c6-3604-4474-9e3d-af2d949fb38f",
+  "name": "System settings",
+  "description": "System settings with wallpaper selection and device information",
+  "version": "0.4.2",
+  "icon": "assets/system-settings-icon.png",
+  "type": "app",
+  "entry": "main.lua",
+  "api": 2,
+  "capabilities": {
+    "required": [
+      "system.info"
+    ],
+    "optional": [
+      "display.text",
+      "display.ui",
+      "storage.private",
+      "apps.navigate",
+      "appearance.read",
+      "appearance.write",
+      "system.ui.read",
+      "system.settings",
+      "input.keys"
+    ]
+  },
+  "resources": {
+    "lua_heap_kib": 96
+  },
+  "supported_resolutions": [
+    "368x448",
+    "448x368",
+    "410x502",
+    "502x410"
+  ]
+}

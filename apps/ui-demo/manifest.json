@@ -1,0 +1,29 @@
+{
+  "format": 2,
+  "id": "c72f5be1-6e94-447e-a243-e942093e48ae",
+  "name": "Q2 UI Demo",
+  "description": "LVGL desktop display and pointer interaction example",
+  "version": "0.2.0",
+  "type": "app",
+  "entry": "main.lua",
+  "api": 2,
+  "capabilities": {
+    "required": [
+      "system.info",
+      "display.ui"
+    ],
+    "optional": [
+      "apps.navigate"
+    ]
+  },
+  "resources": {
+    "lua_heap_kib": 64
+  },
+  "supported_resolutions": [
+    "368x448",
+    "448x368",
+    "410x502",
+    "502x410"
+  ],
+  "icon": "assets/app-default.png"
+}

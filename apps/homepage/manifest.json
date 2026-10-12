@@ -1,0 +1,39 @@
+{
+  "format": 2,
+  "id": "1fc0ea0c-2986-4626-8e35-5940462546bd",
+  "name": "Homepage",
+  "description": "Resident lifecycle, launcher and subscribed device status UI",
+  "version": "0.5.1",
+  "type": "app",
+  "entry": "main.lua",
+  "api": 2,
+  "capabilities": {
+    "required": [
+      "system.info",
+      "display.ui",
+      "apps.list",
+      "apps.launch",
+      "appearance.read",
+      "system.ui.read",
+      "system.lifecycle"
+    ],
+    "optional": [
+      "apps.navigate",
+      "data.read",
+      "power.read",
+      "wireless.read",
+      "clock.read",
+      "input.keys"
+    ]
+  },
+  "resources": {
+    "lua_heap_kib": 128
+  },
+  "supported_resolutions": [
+    "368x448",
+    "448x368",
+    "410x502",
+    "502x410"
+  ],
+  "icon": "assets/app-default.png"
+}

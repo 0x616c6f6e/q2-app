@@ -1,0 +1,9 @@
+build/
+.tools/
+dist/
+__pycache__/
+*.pyc
+*.log
+
+# Optional Node artwork toolchain
+node_modules/

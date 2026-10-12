@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "id": "f083bfe4-0938-42c9-9f54-ad7557638443",
+  "name": "Key Demo",
+  "description": "Named single-click, double-click and long-press event viewer",
+  "version": "0.1.1",
+  "type": "app",
+  "entry": "main.lua",
+  "api": 2,
+  "capabilities": {
+    "required": [
+      "display.ui",
+      "input.keys"
+    ],
+    "optional": [
+      "apps.navigate",
+      "system.log",
+      "data.read"
+    ]
+  },
+  "resources": {
+    "lua_heap_kib": 64
+  },
+  "supported_resolutions": [
+    "368x448",
+    "448x368",
+    "410x502",
+    "502x410"
+  ],
+  "icon": "assets/app-default.png"
+}

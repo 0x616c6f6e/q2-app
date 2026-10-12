@@ -1,0 +1,30 @@
+{
+  "format": 2,
+  "id": "843b8acf-30e0-4254-8d79-1a81d17d922d",
+  "name": "Device information",
+  "description": "Device information for Q2-Kernel",
+  "version": "0.2.0",
+  "type": "app",
+  "entry": "main.lua",
+  "api": 2,
+  "capabilities": {
+    "required": [
+      "system.info"
+    ],
+    "optional": [
+      "display.text",
+      "apps.navigate",
+      "display.ui"
+    ]
+  },
+  "resources": {
+    "lua_heap_kib": 64
+  },
+  "supported_resolutions": [
+    "368x448",
+    "448x368",
+    "410x502",
+    "502x410"
+  ],
+  "icon": "assets/app-default.png"
+}

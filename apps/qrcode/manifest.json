@@ -1,0 +1,28 @@
+{
+  "format": 2,
+  "id": "7f8a583f-0a1a-4bbf-a17b-2ee9518c29c2",
+  "name": "QR Code",
+  "description": "Show a fixed string as an offline QR code",
+  "version": "0.1.0",
+  "type": "app",
+  "entry": "main.lua",
+  "api": 2,
+  "capabilities": {
+    "required": [
+      "display.ui"
+    ],
+    "optional": [
+      "input.keys"
+    ]
+  },
+  "resources": {
+    "lua_heap_kib": 64
+  },
+  "supported_resolutions": [
+    "368x448",
+    "448x368",
+    "410x502",
+    "502x410"
+  ],
+  "icon": "assets/app-default.png"
+}

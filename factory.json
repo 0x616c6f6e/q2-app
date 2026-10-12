@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "default_app": "homepage",
+  "apps": [
+    {
+      "directory": "homepage",
+      "factory": true
+    },
+    {
+      "directory": "settings",
+      "factory": true
+    },
+    {
+      "directory": "ui-demo",
+      "factory": false
+    },
+    {
+      "directory": "device-info",
+      "factory": false
+    },
+    {
+      "directory": "key-demo",
+      "factory": false
+    },
+    {
+      "directory": "network-test",
+      "factory": false
+    },
+    {
+      "directory": "qrcode",
+      "factory": false
+    },
+    {
+      "directory": "music-player",
+      "factory": false
+    }
+  ]
+}

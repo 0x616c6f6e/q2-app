@@ -1,0 +1,32 @@
+{
+  "format": 2,
+  "id": "0166e1e9-2349-4e01-9301-13275b047e1f",
+  "name": "Music",
+  "description": "Restore login and automatically play your liked music",
+  "version": "0.4.1",
+  "type": "app",
+  "entry": "main.lua",
+  "api": 2,
+  "icon": "assets/icon.png",
+  "capabilities": {
+    "required": [
+      "display.ui"
+    ],
+    "optional": [
+      "input.keys",
+      "system.log",
+      "network.http",
+      "storage.private",
+      "audio.playback"
+    ]
+  },
+  "resources": {
+    "lua_heap_kib": 384
+  },
+  "supported_resolutions": [
+    "368x448",
+    "448x368",
+    "410x502",
+    "502x410"
+  ]
+}

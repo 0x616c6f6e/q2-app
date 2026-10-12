@@ -1,0 +1,2 @@
+# Optional formatter only; create/validate/pack/test require no third-party Python packages.
+black==24.10.0

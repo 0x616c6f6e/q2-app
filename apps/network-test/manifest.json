@@ -1,0 +1,31 @@
+{
+  "format": 2,
+  "id": "6c62b983-4511-474f-b4b8-78e599857f9b",
+  "name": "Network Test",
+  "description": "Asynchronous HTTP/HTTPS diagnostics using the platform network",
+  "version": "0.1.0",
+  "type": "app",
+  "entry": "main.lua",
+  "api": 2,
+  "capabilities": {
+    "required": [
+      "display.ui"
+    ],
+    "optional": [
+      "network.http",
+      "apps.navigate",
+      "input.keys",
+      "system.log"
+    ]
+  },
+  "resources": {
+    "lua_heap_kib": 64
+  },
+  "supported_resolutions": [
+    "368x448",
+    "448x368",
+    "410x502",
+    "502x410"
+  ],
+  "icon": "assets/app-default.png"
+}

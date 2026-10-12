@@ -1,0 +1,10 @@
+{
+  "name": "q2-app-artwork",
+  "private": true,
+  "devDependencies": {
+    "sharp": "0.35.5"
+  },
+  "scripts": {
+    "icons": "node scripts/generate_resolution_icons.cjs"
+  }
+}
